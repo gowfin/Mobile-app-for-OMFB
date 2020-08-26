@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/clearall"
+          android:title="@string/clear_all_transactions"
+          android:icon="@drawable/ic_zerotrans"
+          app:showAsAction="never"/>
+    <item android:id="@+id/logout"
+          android:title="Logout"
+          android:icon="@drawable/ic_zerotrans"
+          app:showAsAction="never"/>
+    <item android:id="@+id/sync"
+          android:title="Synchronize With FS"
+
+          app:showAsAction="never"/>
+    <item android:id="@+id/offline"
+          android:title="Post with phone hotspot"
+          app:showAsAction="never"/>
+    <item android:id="@+id/config"
+          android:title="Edit Connection Credentials"
+          app:showAsAction="never"/>
+    <item android:id="@+id/chuserpw"
+          android:title="Change Password"
+          app:showAsAction="never"/>
+    <item android:id="@+id/chuserID"
+          android:title="Change Username"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/report"
+          android:title="Get Transaction Report"
+          android:icon="@drawable/ic_zerotrans"
+          app:showAsAction="never"/>
+    <item android:id="@+id/getfsclient"
+          android:title="Download Clients"
+          app:showAsAction="never"/>
+</menu>
+
